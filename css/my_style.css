@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900');
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.backimage {
+    height: 750px;
+    background: url(/images/esbmobile.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    color: white ;
+    font-size: 2.8em;
+    text-shadow: 1px 1px 0px #000;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    color: #7481b5;
+    font-size: 2.5em;
+    
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background-color: #070b13;
+    overflow-x: hidden;
+}
+
+section {
+    line-height: 1.5;
+}
+
+.description {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.1em;
+    
+    
+}
+
+.mon_cv, .mon_cv a {
+    background-color:#7481b5;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    padding: 20px;
+    border: 1px solid #7481b5;
+    transition: 0.3s;
+    text-decoration: none;
+    
+}
+.mon_cv:hover{
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.but, .but a {
+    background-color:#7481b5;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    padding: 20px;
+    border: 1px solid #7481b5;
+    transition: 0.3s;
+    text-decoration: none;
+    
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+/*Début CSS skill bars*/
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#252c40;
+	height:35px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	/*background:#6adcfa;*/
+}
+
+.skillbar-title span {
+	display:block;
+	background: transparent;
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	font-size : 1.1em;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+/*FIN CSS skill bars*/
+
+.modal-body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.modal-content {
+    background: rgba(7,11,19,0.7);
+    color: #fff;
+}
+
+.modal-footer button {
+    background: #7481b5;
+    border-radius: 0px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.modal-header button {
+    color: #fff;
+}
+
+#myfooter {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.fa-arrow-up {
+    color: #fff;
+    font-size: 40px;
+}
+
+.linkedin a {
+    color: #fff;
+}
+
+.photo_profil_pc {
+    display: none;
+}
+
+
+/* TABLETTES 768px and up) */
+@media ( min-width : 768px) {
+    .mon_cv {
+        width: 250px;
+        margin-left: 25px;
+        padding: 10px;
+    }
+    .photo_profil_mobile {
+        display:none;
+    }
+    .photo_profil_pc {
+    display: block;
+    max-width: 350px;
+}
+}
+
+
+/* pc 992 */
+@media ( min-width : 992px) {
+    .mybody {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    
+    h1 {
+        font-size: 3.4em;
+    }
+    .backimage {
+       height: 900px; 
+    }
+    
+}
+
+@media (min-width : 1100px) {
+    .backimage {
+    background: url(/images/esb1080.jpg) no-repeat center center fixed; 
+    }
+}
+
+@media ( min-width : 1600px) {
+        .mybody {
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+}

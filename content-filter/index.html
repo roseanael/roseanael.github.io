@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Content Filters | CodyHouse</title>
+</head>
+<body>
+<!--début portfolio filter-->
+	<main class="cd-main-content">
+		<div class="cd-tab-filter-wrapper">
+			<div class="cd-tab-filter">
+				<ul class="cd-filters">
+					<li class="placeholder"> 
+						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+					</li> 
+					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
+					<li class="filter" data-filter=".siteweb"><a href="#0" data-type="siteweb">Sites Web</a></li>
+					<li class="filter" data-filter=".audiovisuel"><a href="#0" data-type="audiovisuel">Audiovisuel</a></li>
+					<li class="filter" data-filter=".graphisme"><a href="#0" data-type="graphisme">Graphisme</a></li>
+				</ul> <!-- cd-filters -->
+			</div> <!-- cd-tab-filter -->
+		</div> <!-- cd-tab-filter-wrapper -->
+
+		<section class="cd-gallery">
+			<ul>
+				<li class="mix siteweb"><a href="youtube.com" target="_blank"><img src="/images/atw_1.jpg" alt="Site Web Around The Web"></a></li>
+				<li class="mix audiovisuel"><img src="/images/av_cp_1.jpg" alt="Audiovisuel Film Chirurgie plastique"></li>
+				<li class="mix siteweb"><img src="/images/go_1.jpg" alt="Site web Grenoble Out"></li>
+				<li class="mix audiovisuel"><img src="/images/av_tb_1.jpg" alt="Audiovisuel Film Tu Boudes"></li>
+				<li class="mix audiovisuel"><img src="/images/av_md_1.jpg" alt="Audiovisuel Film Mystérieuse Disparition"></li>
+				<li class="mix siteweb"><img src="/images/pj_1.jpg" alt="Site web pensée jardin"></li>
+				<li class="mix graphisme"><img src="/images/gr_book_1.jpg" alt="Graphisme Book graphique"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+				<li class="gap"></li>
+			</ul>
+			<div class="cd-fail-message">No results found</div>
+		</section> <!-- cd-gallery -->
+
+	
+
+		
+	</main> <!-- cd-main-content -->
+<!--fin portfolio filter-->
+
+
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
