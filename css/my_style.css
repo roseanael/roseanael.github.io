@@ -192,6 +192,9 @@ width:110px;
     display: none;
 }
 
+.mix {
+	cursor: pointer;
+}
 
 /* TABLETTES 768px and up) */
 @media ( min-width : 768px) {
